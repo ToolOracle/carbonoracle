@@ -2,6 +2,8 @@
 
 **CO2 & Climate Intelligence MCP Server** — 11 tools | Part of [ToolOracle](https://tooloracle.io)
 
+[![CarbonOracle MCP server](https://glama.ai/mcp/servers/ToolOracle/carbonoracle/badges/card.svg)](https://glama.ai/mcp/servers/ToolOracle/carbonoracle)
+
 ## Connect
 ```bash
 npx -y mcp-remote https://tooloracle.io/carbon/mcp/
