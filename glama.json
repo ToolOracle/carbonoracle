@@ -1,0 +1,27 @@
+{
+  "name": "CarbonOracle",
+  "description": "CO2 & Climate Intelligence MCP Server — EU ETS carbon price, real-time grid intensity, 50 blockchain carbon footprints, VeChain DNV ISO14040/14044 certified profile.",
+  "version": "1.0.0",
+  "author": "ToolOracle",
+  "homepage": "https://tooloracle.io",
+  "repository": "https://github.com/ToolOracle/carbonoracle",
+  "license": "MIT",
+  "tools": [
+    "carbon_eu_ets_price",
+    "carbon_grid_intensity",
+    "carbon_grid_compare",
+    "carbon_ember_country",
+    "carbon_ember_eu_ranking",
+    "carbon_footprint",
+    "carbon_blockchain",
+    "carbon_chain",
+    "carbon_chain_ranking",
+    "carbon_vechain",
+    "health_check"
+  ],
+  "tags": ["carbon", "co2", "climate", "esg", "sustainability", "vechain", "blockchain", "eu-ets", "emissions"],
+  "mcp": {
+    "transport": "streamable-http",
+    "endpoint": "https://tooloracle.io/carbon/mcp/"
+  }
+}
