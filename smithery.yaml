@@ -1,0 +1,5 @@
+name: CarbonOracle
+description: CO2 & climate intelligence — 10 tools
+endpoint: https://tooloracle.io/carbon/mcp/
+transport: streamable-http
+license: MIT
