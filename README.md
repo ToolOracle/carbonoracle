@@ -1,9 +1,10 @@
-# 🌿 carbonOracle
+# 🌿 CarbonOracle
 
-**ESG & Carbon MCP Server** — 0 tools | Part of [ToolOracle](https://tooloracle.io)
+**ESG & Carbon Intelligence MCP Server** — 11 tools | Part of [ToolOracle](https://tooloracle.io)
 
-![Tools](https://img.shields.io/badge/MCP_Tools-0-10B898?style=flat-square)
+![Tools](https://img.shields.io/badge/MCP_Tools-11-10B898?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
 
 ## Quick Connect
@@ -25,30 +26,36 @@ npx -y mcp-remote https://tooloracle.io/carbon/mcp/
 }
 ```
 
-## Tools (0)
+## Tools (11)
 
 | Tool | Description |
 |------|-------------|
+| `carbon_eu_ets_price` | Live EU Emissions Trading System price (EUA in EUR and USD) |
+| `carbon_grid_intensity` | Real-time electricity grid carbon intensity by country (gCO2/kWh) |
+| `carbon_grid_compare` | Compare electricity carbon intensity across 20+ countries |
+| `carbon_ember_country` | Annual electricity carbon intensity from Ember Climate data |
+| `carbon_ember_eu_ranking` | EU country ranking by electricity carbon intensity |
+| `carbon_footprint` | Carbon footprint estimation for common products and activities |
+| `carbon_blockchain` | Carbon intensity of major blockchain networks (gCO2/tx) |
+| `carbon_chain` | Detailed carbon footprint for any specific blockchain |
+| `carbon_chain_ranking` | Rank all 50 blockchains by carbon footprint |
+| `carbon_vechain` | VeChain deep carbon profile (DNV ISO14040/14044 certified) |
+| `health_check` | Service health status |
 
 ## Pricing
 
 | Tier | Rate Limit | Price |
 |------|-----------|-------|
-| Free | 100 calls/day | €0 |
-| Pro | 10,000 calls/day | €29/month |
-| Enterprise | Unlimited | Custom |
+| Free | 100 calls/day | $0 |
+| Pro | 1,100 units/month | $49/month |
+| Agent | 5,500 units/month | $299/month |
+| x402 | Pay per call | $0.01/call USDC on Base |
 
-> Free tier includes all tools with rate limiting. Upgrade for higher limits and priority support.
+> Free tier includes all tools with rate limiting. Register with `kya_register` for 500 welcome units.
 
 ## Part of ToolOracle
 
-carbonOracle is one of **42 specialized MCP servers** in the [ToolOracle](https://tooloracle.io) ecosystem — the largest collection of production-ready MCP tools for AI agents.
-
-
-
-**Related Oracles:**
-- [FeedOracle](https://feedoracle.io) — Evidence-grade compliance data infrastructure
-- [ToolOracle](https://tooloracle.io) — 42 Oracles, 390+ MCP Tools
+CarbonOracle is one of **100+ MCP servers** in the [ToolOracle](https://tooloracle.io) ecosystem — self-serve MCP infrastructure for AI agents with 1,200+ tools across 8 categories.
 
 ## Links
 
@@ -58,4 +65,4 @@ carbonOracle is one of **42 specialized MCP servers** in the [ToolOracle](https:
 
 ---
 
-*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
+*Built by [FeedOracle Technologies](https://feedoracle.io) — Evidence by Design*

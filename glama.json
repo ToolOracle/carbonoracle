@@ -1,8 +1,12 @@
 {
-  "name": "carbonOracle",
-  "description": "CO2 & Climate Intelligence \u2014 11 MCP tools for carbon monitoring",
+  "name": "CarbonOracle",
+  "description": "ESG & Carbon Intelligence MCP Server — live EU ETS carbon price, real-time grid carbon intensity for 20+ countries, 50 blockchain carbon footprints, VeChain DNV ISO14040/14044 certified data. 11 tools.",
   "repository": "https://github.com/ToolOracle/carbonoracle",
-  "endpoint": "https://tooloracle.io/carbon/mcp/",
+  "homepage": "https://tooloracle.io/carbon/",
+  "license": "MIT",
+  "author": "ToolOracle",
+  "categories": ["blockchain", "finance", "research-and-data"],
   "tools": 11,
-  "license": "MIT"
+  "features": ["remote-capable", "free-tier"],
+  "mcp_endpoint": "https://tooloracle.io/carbon/mcp/"
 }
